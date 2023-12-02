@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/poppinsextra"
+        android:gravity="center"
+        android:text="Direct Message!"
+        android:textColor="@color/primary"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppinsextra"
+            android:gravity="center"
+            android:text="Nama : Iris Bella"
+            android:textColor="@color/primary"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppinsextra"
+            android:gravity="center"
+            android:text="NIM : 200401072035"
+            android:textColor="@color/primary"
+            android:textSize="33sp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nama"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Tulis Pesan Anda Disini"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:textSize="14dp" />
+        <Button
+            android:id="@+id/kirim_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Kirim"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

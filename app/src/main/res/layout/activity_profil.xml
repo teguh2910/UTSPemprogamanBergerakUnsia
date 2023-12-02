@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/poppinsextra"
+        android:gravity="center"
+        android:text="Selamat Datang!"
+        android:textColor="@color/primary"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppinsextra"
+            android:gravity="center"
+            android:text="Nama : Teguh Yuhono"
+            android:textColor="@color/primary"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppinsextra"
+            android:gravity="center"
+            android:text="NIM : 200401072035"
+            android:textColor="@color/primary"
+            android:textSize="33sp" />
+
+
+        <Button
+            android:id="@+id/rubah_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Rubah"
+            android:textSize="33sp"/>
+        <Button
+            android:id="@+id/rekomendasi_teman_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Rekomendasi Teman"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/channel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Channel"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/post_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Lihat Postingan"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
